@@ -2,9 +2,9 @@ const containerElement = document.getElementById('container');
 
 for (let i = 1; i <= 1000; i++){
 
-    // controllo se il numero è multiplo sia di 3 che di 5
+    
     if ( i % 3 == 0 && i % 5 == 0){
-
+        // controllo se il numero è multiplo sia di 3 che di 5
         containerElement.innerHTML += "<div class= 'box bg_red'>" + "fizzbuzz" + "</div>";
     } else if (i % 5 == 0){
         // controllo se il numero è multiplo di 5
